@@ -1,0 +1,87 @@
+body {
+background-color: lightskyblue;
+text-align: center;
+font-weight: bold;
+}
+#logo{
+    height: 25%;
+    width: 40%;
+}
+
+#olvidado{
+    border-style: dotted;
+    border-color: black;
+    border-radius: 15px;
+    cursor: pointer;
+}
+#ingreso_usuario,#contra{
+    width: 20%;
+}
+#enviar{
+    width: 10%;
+    height: 40px;
+    background-color: lightgreen;
+    border-radius: 50%;
+    color: white;
+    font-size: large;
+}
+#olvidado:active{
+background-color: lightgreen;
+}
+@media screen and (max-width: 480px){
+    #logo{
+        height: 40%;
+        width: 50%;
+    }
+    #ingreso_usuario,#contra{
+        width: 45%;
+    }
+    #enviar{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 500px){
+    #logo{
+        height: 40%;
+        width: 50%;
+    }
+    #ingreso_usuario,#contra{
+        width: 45%;
+    }
+    #enviar{
+        width: 35%;
+    }
+}
+@media screen and (max-width: 768px){
+    #logo{
+        height: 40%;
+        width: 50%;
+    }
+    #ingreso_usuario,#contra{
+        width: 35%;
+    }
+    #enviar{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 900px) and (min-width:769px){
+    #logo{
+        height: 40%;
+        width: 50%;
+    }
+    #ingreso_usuario,#contra{
+        width: 30%;
+    }
+    #enviar{
+        width: 25%;
+    }
+}
+@media screen and (max-width: 1170px) and (min-width:901px){
+    #logo{
+        height: 40%;
+        width: 50%;
+    }
+    #enviar{
+        width: 17%;
+    }
+}
